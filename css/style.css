@@ -2,6 +2,7 @@ body {
     font-family: 'Lato', sans-serif;
     font-size: 1em;
     margin: 0;
+    text-align: center;
 }
 
 .navbar-links {
@@ -40,10 +41,54 @@ body {
 
 #welcome-text h1{
     font-size: 2em;
+    color: #8d41ff;
 }
 
 #welcome-text h2{
     font-size: 1.5em;
+}
+
+
+
+#projects h1{
+    text-align: center;
+}
+
+
+#project-tile-wrapper {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.project-tile {
+    max-height: 450px;
+    max-width: 450px;
+    text-align: center;
+    font-size: 1.5em;
+    
+}
+
+.project-tile a{
+    text-decoration: none;
+}
+
+
+
+.project-tile img {
+    height: auto;
+    width: 100%;
+}
+
+#profile-link {
+    text-decoration: none;
+    font-size: 2em;
+    color: #8d41ff;
+    margin-bottom: 200px;
+    display: inline-block;
 }
 
 @media (width: 600px){
